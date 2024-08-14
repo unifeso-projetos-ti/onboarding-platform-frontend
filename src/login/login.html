@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="tela-login">
+        <h1 class="titulo">LOGIN</h1>
+        <form id="login-form">
+            <input type="text" placeholder="Usuário" name="username">
+            <br><br>
+            <input type="password" placeholder="Senha" name="password">
+            <br><br>
+            <button class="btnentrar" type="submit">Entrar</button>
+        </form>
+        <div class="erro-msg" id="error-message" style="display: none;"></div>
+        <div class="cadastre-se">
+            <p>Não tem conta? <button class="btncadastrar" id="cadastre-se-btn">Cadastre-se</button></p>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

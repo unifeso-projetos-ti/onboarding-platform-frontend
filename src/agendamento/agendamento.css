@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, black, #004AAD,#004AAD, black);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px -4px #ffffff;
+  }
+  
+  h1, h2  {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .agendamentos, .agendar {
+    margin-bottom: 30px;
+  }
+  
+  .agendamentos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .agendamentos li {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="time"],
+  input[type="date"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+  }
+
+  ul{
+    color: white;
+  }
+  
+  input[type="submit"] {
+    background-color: #004AAD;
+    color: #f1eeee;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    box-shadow: 0px 0px 8px rgb(51, 51, 255);
+    transform: scale(1.03);
+  }
+
+  .btnvoltar{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+  }
+
+  
+  
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamentos e Reuniões</title>
+  <link rel="stylesheet" href="agendamento.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Agendamentos de Reuniões e Treinamentos</h1>
+    <div class="agendar">
+      <h2>Agendar Nova Reunião</h2>
+      <form id="agendarForm">
+        <label for="nome">Nome da Reunião (Treinamento):</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="nome">Data da Reunião (Treinamento): </label>
+        <input type="date" name="data" id="data" required>
+        <label for="horario">Horário:</label>
+        <input type="time" id="hora" name="hora" required>
+        <label for="participante_1">Participantes:</label>
+        <input type="text" id="emails" placeholder="Digite o email do Participante" name="emails" required>
+
+        <input type="submit" value="Agendar">
+      </form>
+      <a href="../../index.html"><button class="btnvoltar">Voltar</button></a>
+    </div>
+    <div class="agendamentos">
+      <h2>Meus Agendamentos</h2>
+      <ul id="listaAgendamentos">
+
+      </ul>
+    </div>
+
+    <div id="confirmacao" style="display: none;">
+      <h2>Confirmação de Agendamento</h2>
+      <ul id="listaConfirmacao">
+
+      </ul>
+    </div>
+  </div>
+
+  <script src="agendamento.js"></script>
+</body>
+
+</html>

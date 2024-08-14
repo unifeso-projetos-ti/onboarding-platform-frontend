@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionário</title>
+    <link rel="stylesheet" href="cadFuncionario.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="tela-cadastro">
+        <h1 class="titulo">CADASTRE-SE</h1>
+        <form id="form-api">
+            <input type="text" placeholder="Usuário" name="usuario">
+            <br><br>
+            <input type="text" placeholder="Nome" name="nome">
+            <br><br>
+            <input type="email" placeholder="Email" name="email">
+            <br><br>
+            <input type="password" placeholder="Senha" name="senha">
+            <br><br>
+            <button class="btnenviar" type="submit">Enviar</button>
+
+        </form>
+        <div class="cadastre-se">
+            <p>Tem conta? <a href="../login/login.html"><button class="btnvoltar" id="cadastre-se-btn">Login</button></a></p>
+        </div>
+        <div id="resposta-api"></div>
+    </div>
+
+    <div id="confirmacao-cadastro" class="confirmacao" style="display: none;">
+        <h2>Cadastro realizado com sucesso!</h2>
+        <button onclick="fecharConfirmacao()">Fechar</button>
+    </div>
+
+    <script src="cadFuncionario.js"></script>
+</body>
+
+</html>

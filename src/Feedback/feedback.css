@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Seymour+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px;
+}
+
+body {
+    background-image: linear-gradient(to right, black, #004AAD,#004AAD,#004AAD, black);
+    margin-top: 0%;
+    margin-left: 0%;
+    border: 1px solid black;
+    width: 100%;
+    height: 1000px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 50px -4px #ffffff;
+
+}
+
+input[id="assunto"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#text {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 8px rgb(51, 51, 255);
+    transform: scale(1.03);
+}
+
+.enviar {
+    background-color: #004AAD;
+    color: #f1eeee;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.enviar:hover {
+    box-shadow: 0px 0px 8px rgb(204, 204, 204);
+    transform: scale(1.03);
+}
+
+.btnvoltar {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.btnvoltar:hover {
+    box-shadow: 0px 0px 8px rgb(204, 204, 204);
+    transform: scale(1.03);
+}

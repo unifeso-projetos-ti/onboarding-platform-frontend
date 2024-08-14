@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Seymour+One&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, black, #004AAD, black);
+}
+
+.tela-cadastro {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 50px -4px #ffffff;
+}
+
+.titulo {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #004AAD;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnenviar:hover {
+    box-shadow: 0px 0px 8px rgb(51, 51, 255);
+    transform: scale(1.05);
+}
+
+.resposta-api {
+    top: 10px;
+
+}
+
+.cadastre-se {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cadastre-se button {
+    background-color: transparent;
+    color: dodgerblue;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cadastre-se button:hover {
+    text-decoration: underline;
+}
+
+.confirmacao {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.confirmacao h2 {
+    margin-bottom: 20px;
+}
+
+.confirmacao button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.confirmacao button:hover {
+    background-color: #45a049;
+}
